@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+HidenWithAutoLayoutConstraints.h"
 
 @interface ViewController : UIViewController
 

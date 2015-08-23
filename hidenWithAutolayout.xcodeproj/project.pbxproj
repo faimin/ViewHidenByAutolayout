@@ -14,6 +14,7 @@
 		EA6C356C1B856E2A002D25BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6C356B1B856E2A002D25BA /* Images.xcassets */; };
 		EA6C356F1B856E2A002D25BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6C356D1B856E2A002D25BA /* LaunchScreen.xib */; };
 		EA6C357B1B856E2A002D25BA /* hidenWithAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C357A1B856E2A002D25BA /* hidenWithAutolayoutTests.m */; };
+		EA6C358C1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C358B1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EA6C35741B856E2A002D25BA /* hidenWithAutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidenWithAutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6C35791B856E2A002D25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6C357A1B856E2A002D25BA /* hidenWithAutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hidenWithAutolayoutTests.m; sourceTree = "<group>"; };
+		EA6C358A1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HidenWithAutoLayoutConstraints.h"; sourceTree = "<group>"; };
+		EA6C358B1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HidenWithAutoLayoutConstraints.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EA6C35681B856E2A002D25BA /* Main.storyboard */,
 				EA6C356B1B856E2A002D25BA /* Images.xcassets */,
 				EA6C356D1B856E2A002D25BA /* LaunchScreen.xib */,
+				EA6C358A1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.h */,
+				EA6C358B1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.m */,
 				EA6C355E1B856E2A002D25BA /* Supporting Files */,
 			);
 			path = hidenWithAutolayout;
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6C35671B856E2A002D25BA /* ViewController.m in Sources */,
+				EA6C358C1B85770C002D25BA /* UIView+HidenWithAutoLayoutConstraints.m in Sources */,
 				EA6C35641B856E2A002D25BA /* AppDelegate.m in Sources */,
 				EA6C35611B856E2A002D25BA /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				EA6C35801B856E2A002D25BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6C35811B856E2A002D25BA /* Build configuration list for PBXNativeTarget "hidenWithAutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				EA6C35831B856E2A002D25BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
