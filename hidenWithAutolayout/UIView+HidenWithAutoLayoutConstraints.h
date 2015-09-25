@@ -10,6 +10,6 @@
 
 @interface UIView (HidenWithAutoLayoutConstraints)
 
-- (void)hideWithAutoLayoutAttributes:(NSLayoutAttribute)attributes,...NS_REQUIRES_NIL_TERMINATION;
+- (void)hideWithAutoLayoutAttributes:(NSLayoutAttribute)attributes, ...NS_REQUIRES_NIL_TERMINATION;
 
 @end
