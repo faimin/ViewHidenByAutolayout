@@ -20,11 +20,11 @@
 	{
 		[self hideView:!self.hidden withAttribute:attributes];
 
-		NSLayoutAttribute detailattribute;
+		NSLayoutAttribute detailAttribute;
 
-		while ((detailattribute = va_arg(ap, NSLayoutAttribute)))
+		while ((detailAttribute = va_arg(ap, NSLayoutAttribute)))
         {
-			[self hideView:!self.hidden withAttribute:detailattribute];
+			[self hideView:!self.hidden withAttribute:detailAttribute];
 		}
 	}
     
@@ -47,7 +47,6 @@
 			objc_setAssociatedObject(self, [constraintString UTF8String], @(constraint.constant), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 			savednumber = @(constraint.constant);
 		}
-		NSLog(@"%f", savednumber.floatValue);
 
 		if (hidden)
 		{
