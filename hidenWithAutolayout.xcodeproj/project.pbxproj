@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		BC6F66301C083D9500673FCE /* UIView+HidenWithAutoLayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HidenWithAutoLayoutConstraints.h"; sourceTree = "<group>"; };
 		BC6F66311C083D9500673FCE /* UIView+HidenWithAutoLayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HidenWithAutoLayoutConstraints.m"; sourceTree = "<group>"; };
-		EA6C355B1B856E2A002D25BA /* hidenWithAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidenWithAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6C355B1B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidenWithAutolayout.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6C355F1B856E2A002D25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6C35601B856E2A002D25BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA6C35621B856E2A002D25BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		EA6C35691B856E2A002D25BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6C356B1B856E2A002D25BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA6C356E1B856E2A002D25BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EA6C35741B856E2A002D25BA /* hidenWithAutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidenWithAutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6C35741B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HidenWithAutolayout.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6C35791B856E2A002D25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6C357A1B856E2A002D25BA /* hidenWithAutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hidenWithAutolayoutTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				BC6F662F1C083D9500673FCE /* Source */,
-				EA6C355D1B856E2A002D25BA /* hidenWithAutolayout */,
-				EA6C35771B856E2A002D25BA /* hidenWithAutolayoutTests */,
+				EA6C355D1B856E2A002D25BA /* HidenWithAutolayout */,
+				EA6C35771B856E2A002D25BA /* HidenWithAutolayoutTests */,
 				EA6C355C1B856E2A002D25BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,13 +85,13 @@
 		EA6C355C1B856E2A002D25BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA6C355B1B856E2A002D25BA /* hidenWithAutolayout.app */,
-				EA6C35741B856E2A002D25BA /* hidenWithAutolayoutTests.xctest */,
+				EA6C355B1B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.app */,
+				EA6C35741B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA6C355D1B856E2A002D25BA /* hidenWithAutolayout */ = {
+		EA6C355D1B856E2A002D25BA /* HidenWithAutolayout */ = {
 			isa = PBXGroup;
 			children = (
 				EA6C35621B856E2A002D25BA /* AppDelegate.h */,
@@ -103,6 +103,7 @@
 				EA6C356D1B856E2A002D25BA /* LaunchScreen.xib */,
 				EA6C355E1B856E2A002D25BA /* Supporting Files */,
 			);
+			name = HidenWithAutolayout;
 			path = hidenWithAutolayout;
 			sourceTree = "<group>";
 		};
@@ -115,12 +116,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA6C35771B856E2A002D25BA /* hidenWithAutolayoutTests */ = {
+		EA6C35771B856E2A002D25BA /* HidenWithAutolayoutTests */ = {
 			isa = PBXGroup;
 			children = (
 				EA6C357A1B856E2A002D25BA /* hidenWithAutolayoutTests.m */,
 				EA6C35781B856E2A002D25BA /* Supporting Files */,
 			);
+			name = HidenWithAutolayoutTests;
 			path = hidenWithAutolayoutTests;
 			sourceTree = "<group>";
 		};
@@ -149,7 +151,7 @@
 			);
 			name = hidenWithAutolayout;
 			productName = hidenWithAutolayout;
-			productReference = EA6C355B1B856E2A002D25BA /* hidenWithAutolayout.app */;
+			productReference = EA6C355B1B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA6C35731B856E2A002D25BA /* hidenWithAutolayoutTests */ = {
@@ -167,7 +169,7 @@
 			);
 			name = hidenWithAutolayoutTests;
 			productName = hidenWithAutolayoutTests;
-			productReference = EA6C35741B856E2A002D25BA /* hidenWithAutolayoutTests.xctest */;
+			productReference = EA6C35741B856E2A002D25BA /* HidenWithAutolayout.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA6C35561B856E2A002D25BA /* Build configuration list for PBXProject "hidenWithAutolayout" */;
+			buildConfigurationList = EA6C35561B856E2A002D25BA /* Build configuration list for PBXProject "HidenWithAutolayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -365,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hidenWithAutolayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HidenWithAutolayout.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -375,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hidenWithAutolayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HidenWithAutolayout.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
@@ -393,8 +395,8 @@
 				);
 				INFOPLIST_FILE = hidenWithAutolayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidenWithAutolayout.app/hidenWithAutolayout";
+				PRODUCT_NAME = HidenWithAutolayout.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidenWithAutolayout.temp_caseinsensitive_rename.app/HidenWithAutolayout.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -408,15 +410,15 @@
 				);
 				INFOPLIST_FILE = hidenWithAutolayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidenWithAutolayout.app/hidenWithAutolayout";
+				PRODUCT_NAME = HidenWithAutolayout.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidenWithAutolayout.temp_caseinsensitive_rename.app/HidenWithAutolayout.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA6C35561B856E2A002D25BA /* Build configuration list for PBXProject "hidenWithAutolayout" */ = {
+		EA6C35561B856E2A002D25BA /* Build configuration list for PBXProject "HidenWithAutolayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA6C357C1B856E2A002D25BA /* Debug */,
